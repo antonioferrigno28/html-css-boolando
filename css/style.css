@@ -19,6 +19,66 @@ li {
 a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+/* header */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ff6900;
+  z-index: 2;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  gap: 15px;
+}
+
+header .container .header-links,
+header .container .header-account {
+  width: 20%;
+}
+
+header .container .header-logo {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+header .header-logo img {
+  width: 150px;
+}
+
+header .container > * {
+  padding: 30px 0px;
+}
+
+header .container li > a {
+  font-size: 16px;
+}
+
+.header-account .li-account {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .header-bar {
+  padding: 0 25px;
+  height: 60px;
+}
+
+/* main */
+main {
+  padding: 100px 0 0 0;
+}
+
+main h2 {
+  font-size: 18px;
 }
 
 /* body */
@@ -38,10 +98,6 @@ main .content-shop .card {
 
 .card-content-img > img {
   width: 100%;
-}
-
-main h2 {
-  font-size: 24px;
 }
 
 /* cards & cards-content */
