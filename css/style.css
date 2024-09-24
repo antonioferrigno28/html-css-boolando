@@ -71,7 +71,7 @@ main .card .card-content-img {
   padding: 6px 8px;
   color: white;
   bottom: 30px;
-  z-index: 1;
+  z-index: 2;
   font-weight: bold;
   font-size: 14px;
   border-radius: 10px;
@@ -94,7 +94,7 @@ main .card .card-content-img {
   right: 0;
   padding: 15px;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   background-color: white;
 }
 
@@ -113,5 +113,9 @@ main .card .card-content-img {
 .card-content-img .first-img {
   position: absolute;
   left: 0;
-  z-index: 0;
+  z-index: 1;
+}
+
+.first-img:hover {
+  opacity: 0;
 }
