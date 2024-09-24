@@ -74,7 +74,6 @@ main .card .card-content-img {
   z-index: 2;
   font-weight: bold;
   font-size: 14px;
-  border-radius: 10px;
 }
 
 /* discount and sustain */
@@ -83,8 +82,12 @@ main .card .card-content-img {
 }
 
 .content-shop .inside-box.sustain {
-  left: 55px;
+  left: 60px;
   background-color: rgb(22, 129, 22);
+}
+
+.inside-box.sustain.alone {
+  left: 0;
 }
 
 /* wishlist (heart)*/
