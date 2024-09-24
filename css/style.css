@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utils */
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main .content-shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .content-shop .card {
+  margin: 20px 10px;
+  position: sticky;
+}
+
+.card-content-img > img {
+  width: 100%;
+}
+
+main h2 {
+  font-size: 24px;
+}
+
+/* cards & cards-content */
+
+.card-info p {
+  font-size: smaller;
+}
+
+/* item-prices */
+main .card-info .new-price {
+  display: inline-block;
+  margin-right: 5px;
+  color: rgb(177, 2, 2);
+  font-weight: bold;
+}
+
+main .old-price {
+  text-decoration: line-through;
+}
+
+/* card positioning */
+main .card .card-content-img {
+  position: relative;
+}
+.content-shop .inside-box {
+  position: absolute;
+  padding: 6px 8px;
+  color: white;
+  bottom: 30px;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+/* discount and sustain */
+.content-shop .inside-box.discount {
+  background-color: rgb(177, 2, 2);
+}
+
+.content-shop .inside-box.sustain {
+  left: 55px;
+  background-color: rgb(22, 129, 22);
+}
+
+/* wishlist (heart)*/
+
+.content-shop .add-to-wishlist {
+  top: 15px;
+  right: 0;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.content-shop .add-to-wishlist a {
+  color: black;
+  font-size: 25px;
+}
+
+/* img card layering*/
+
+.card-content-img {
+  position: relative;
+  width: 380px;
+}
+
+.card-content-img .first-img {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
