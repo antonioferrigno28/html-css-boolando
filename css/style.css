@@ -122,3 +122,9 @@ main .card .card-content-img {
 .first-img:hover {
   opacity: 0;
 }
+
+/* bonus 1 wishlist hover (heart) */
+
+.add-to-wishlist a:hover {
+  color: red;
+}
