@@ -109,7 +109,16 @@ main .content-shop .card {
   font-size: smaller;
 }
 
+.card-info a {
+  color: #222;
+}
+
+.card-info span {
+  font-weight: normal;
+}
+
 /* item-prices */
+
 main .card-info .new-price {
   display: inline-block;
   margin-right: 5px;
@@ -174,8 +183,8 @@ main .card .card-content-img {
 
 .card-content-img .first-img {
   position: absolute;
-  left: 0;
   z-index: 1;
+  transition: opacity linear 1s;
 }
 
 .first-img:hover {
